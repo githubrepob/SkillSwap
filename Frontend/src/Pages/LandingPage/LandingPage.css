@@ -1,0 +1,138 @@
+/* LandingPage.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("ab.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Fixed background image */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.25;
+}
+
+/* Main Section */
+
+.image-section {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+.scroll-image-left,
+.scroll-image-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  max-width: 35vw;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.scroll-image-left {
+  left: 0;
+}
+
+.scroll-image-right {
+  right: 0;
+}
+
+.title-box {
+  border: 8px solid #3bb4a1;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+}
+
+.title-text {
+  font-family: "Josefin Sans", sans-serif;
+  color: #3bb4a1;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 0;
+}
+
+/* WHY SECTION */
+
+.section-heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  
+  color :black;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0;
+  margin: 6rem 0 3rem 0;
+}
+
+.why-content {
+  max-width: 1000px;
+  padding: 0 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+  text-align: center;
+}
+
+.why-content h4 {
+  color: black;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 768px) {
+  .title-text {
+    font-size: 2.5rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+    padding: 20px 0;
+  }
+
+  .scroll-image-left,
+  .scroll-image-right {
+    display: none;
+  }
+
+  .title-box {
+    padding: 16px 24px;
+  }
+}
