@@ -23,10 +23,10 @@ The **Skill Swap Platform** is designed to foster a community where people can e
 **Team Name:** Bytes
 
 **Team Members:**
-- Prerna Singh  
+- Prerna Singh singhprerna0303@gmail.com
 - Shraddha  
-- Ajay Raj  
-- Bhavesh Chauhan 
+- Ajay Raj  ajayrajospf@gmail.com
+- Bhavesh Chauhan bhaveshchauhan.20main@gmail.com
 
 
 
