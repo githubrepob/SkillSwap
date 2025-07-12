@@ -1,12 +1,20 @@
-# React + Vite
+# 🤝 Skill Swap Platform
+A mini web application that allows users to list their skills, request others in return, and exchange knowledge through a peer-to-peer barter system.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Overview
+The Skill Swap Platform is designed to foster a community where people can exchange skills without monetary transactions. Whether you're offering Photoshop expertise in exchange for learning Excel, or guitar lessons for French conversation practice, this platform connects people who want to teach and learn from each other.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 👤 User Profile
+- 🛠️ Skills Management
+- 🔍 Skill Discovery
+- 🔁 Swap System
+- 🌟 Feedback System
+- 👥 Team Details
+## Team Name: Bytes
+### Team Members:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ * Prerna Singh singhprerna0303@gmail.com
+ * Shraddha
+ * Ajay Raj ajayrajospf@gmail.com 
+ * Bhavesh Chauhan bhaveshchauhan.20main@gmail.com
